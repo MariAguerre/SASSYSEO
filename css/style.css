@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.index .galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .index .galeria img {
+    height: 60vh; }
+
+.span-1 {
+  color: red; }
+
+.span-2 {
+  color: pink; }
+
+.span-3 {
+  color: blue; }
+
+@media (max-width: 760px) {
+  .index .galeria img {
+    height: 30vh; } }
+
+.mixins .tarjeta-1 {
+  background-color: #0fb9a3;
+  width: 380px;
+  height: 450px;
+  margin: 2rem;
+  padding: 10px; }
+  .mixins .tarjeta-1 img {
+    width: 175px;
+    margin: 0 auto; }
+
+.mixins .tarjeta-2 {
+  background-color: #dbe464;
+  width: 380px;
+  height: 450px;
+  margin: 2rem;
+  padding: 10px; }
+  .mixins .tarjeta-2 img {
+    width: 175px;
+    margin: 0 auto; }
+
+.mixins .tarjeta-3 {
+  background-color: #f899d4;
+  width: 380px;
+  height: 450px;
+  margin: 2rem;
+  padding: 10px; }
+  .mixins .tarjeta-3 img {
+    width: 175px;
+    margin: 0 auto; }
+
+img {
+  width: 175px;
+  margin: 0 auto; }
+
+p {
+  font-size: 16px;
+  color: #b38900; }
+
+h1, h2, h3 {
+  font-size: 24px;
+  font-style: italic;
+  color: #5979e6;
+  background-color: coral; }

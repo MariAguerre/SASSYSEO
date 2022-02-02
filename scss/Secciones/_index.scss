@@ -1,0 +1,36 @@
+.index {
+    .galeria {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        img {
+            height: $img-grande;
+        }
+    }
+} 
+
+// MAPAS
+
+$textoSpan: (
+    span-1: red,
+    span-2: pink,
+    span-3: blue,
+);
+
+@each $span, $color, $background in $textoSpan{
+    .#{$span}{
+        color: $color;
+    }
+}
+
+
+// RESPONSIVE
+@media (max-width: 760px){
+    .index{
+        .galeria{
+            img{
+                height: $img-grande/2;
+            }
+        }
+    }
+}

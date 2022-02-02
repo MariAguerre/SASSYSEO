@@ -1,0 +1,10 @@
+Está la información básica que pide. No tiene ningún estilo extra ni nada.
+
+1. En el Index se verá la prueba de Maps. El Extend y Mixin tienen su scss y su html.
+
+2. Las descripciones y keywords las indiqué basándome en la 
+consigna del proyecto, y no simulando que fuese un sitio temático 
+específico. Lo mismo con los títulos.
+
+3. Utilicé h1, h2 y h3 para jerarquizar el contenido, permitiendo al usuario 
+navegar con mayor facilidad. También utilicé Strong para hacer negrita, y no un span.
